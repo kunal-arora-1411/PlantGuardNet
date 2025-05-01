@@ -57,7 +57,7 @@ class_names = [
 ]
 
 model = PlantCNN(num_classes=len(class_names))
-model.load_state_dict(torch.load('best_model.pth', map_location=device))
+model.load_state_dict(torch.load('https://drive.google.com/file/d/1j7aWUiyAGlVr-LY81f3_FZktCd5zUC-S/view?usp=sharing', map_location=device))
 model.to(device)
 model.eval()
 
