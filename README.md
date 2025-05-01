@@ -1,15 +1,9 @@
-Here's the updated **README.md** content for your `PlantGuardNet` project with:
-
-- 🌐 Link to the `.pth` model file
-- 📷 Screenshot section for UI display
-- Polished layout and consistency
-
 ---
 
 ```markdown
 # 🌿 PlantGuardNet
 
-**PlantGuardNet** is a deep learning-based system for intelligent plant disease detection and care recommendation. It uses Convolutional Neural Networks (CNN) and segmentation models (SAM) to classify crop types and detect diseases from leaf images, providing tailored agronomic advice.
+**PlantGuardNet** is a deep learning-based system for intelligent plant disease detection and care recommendation. It uses Convolutional Neural Networks (CNN) to classify crop types and detect diseases from leaf images, providing tailored agronomic advice.
 
 ---
 
@@ -17,14 +11,8 @@ Here's the updated **README.md** content for your `PlantGuardNet` project with:
 
 - 📸 Leaf-based disease classification using CNN  
 - 🧪 Integration with crop-specific knowledge base (soil, nutrients, pesticides)  
-- 🤖 SAM (Segment Anything Model) for precise leaf patch extraction  
 - 🔁 Dynamic recommendation system (soil type, water, fertilizer, pesticide)  
 - 💻 Streamlit-based user interface  
-
----
-
-## 🚀 Workflow
-
 
 
 ## 🧩 Model Checkpoint
@@ -37,25 +25,25 @@ You can download the trained PyTorch model (`plant_disease_model.pth`) from the 
 
 ---
 
-## 📸 Screenshots
+## 📸 UI
 
-| Upload Page | Prediction & Recommendation |
-|-------------|-----------------------------|
-| ![Upload](screenshots/upload.png) | ![Result](screenshots/result.png) |
+![image](https://github.com/user-attachments/assets/fa9dc3d4-e5fc-4b1b-9858-84977fbd1f43)
+![image](https://github.com/user-attachments/assets/c0f3bde3-4784-4645-8609-389516222d09)
+![Uploading image.png…]()
 
-> Save your UI screenshots as `upload.png` and `result.png` in a folder named `screenshots/`.
 
----
 
 ## 🛠️ Installation
 
+
+clone this repositroy https://github.com/kunal-arora-1411/PlantGuardNet.git
+
+To install all the requirements run this code in any
+
+
 ```bash
-git clone https://github.com/kunal-arora-1411/PlantGuardNet.git
-cd PlantGuardNet
 pip install -r requirements.txt
 ```
-
----
 
 ## 🏃‍♂️ Run the App
 
