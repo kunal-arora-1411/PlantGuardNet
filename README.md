@@ -1,3 +1,12 @@
+Here's the updated **README.md** content for your `PlantGuardNet` project with:
+
+- 🌐 Link to the `.pth` model file
+- 📷 Screenshot section for UI display
+- Polished layout and consistency
+
+---
+
+```markdown
 # 🌿 PlantGuardNet
 
 **PlantGuardNet** is a deep learning-based system for intelligent plant disease detection and care recommendation. It uses Convolutional Neural Networks (CNN) and segmentation models (SAM) to classify crop types and detect diseases from leaf images, providing tailored agronomic advice.
@@ -6,36 +15,35 @@
 
 ## 🧠 Key Features
 
-- 📸 Leaf-based disease classification using CNN
-- 🧪 Integration with crop-specific knowledge base (soil, nutrients, pesticides)
-- 🤖 SAM (Segment Anything Model) for precise leaf patch extraction
-- 🔁 Dynamic recommendation system (soil type, water, fertilizer, pesticide)
-- 💻 Streamlit-based user interface
+- 📸 Leaf-based disease classification using CNN  
+- 🧪 Integration with crop-specific knowledge base (soil, nutrients, pesticides)  
+- 🤖 SAM (Segment Anything Model) for precise leaf patch extraction  
+- 🔁 Dynamic recommendation system (soil type, water, fertilizer, pesticide)  
+- 💻 Streamlit-based user interface  
 
 ---
 
 ## 🚀 Workflow
 
-1. **Data Collection**  
-   - PlantVillage dataset for leaf images  
-   - Curated agricultural data for nutrient/pesticide mapping  
 
-2. **Preprocessing**  
-   - Image resizing, normalization, augmentation  
-   - Cleaning and structuring agri-data  
 
-3. **Model Training**  
-   - CNN for crop and disease classification  
-   - SAM for segmenting leaf patches (if enabled)
+## 🧩 Model Checkpoint
 
-4. **Inference Pipeline**  
-   - User uploads image  
-   - Model detects crop & disease  
-   - System suggests appropriate actions (Do’s, Don’ts, pesticide, fertilizer)
+You can download the trained PyTorch model (`plant_disease_model.pth`) from the following link:
 
-5. **Deployment**  
-   - Frontend: Streamlit  
-   - Backend: PyTorch model + data engine  
+🔗 [Download Model (.pth)](https://drive.google.com/file/d/1j7aWUiyAGlVr-LY81f3_FZktCd5zUC-S/view?usp=sharing)
+
+> Place the `.pth` file inside your project directory where the model is loaded.
+
+---
+
+## 📸 Screenshots
+
+| Upload Page | Prediction & Recommendation |
+|-------------|-----------------------------|
+| ![Upload](screenshots/upload.png) | ![Result](screenshots/result.png) |
+
+> Save your UI screenshots as `upload.png` and `result.png` in a folder named `screenshots/`.
 
 ---
 
@@ -45,3 +53,24 @@
 git clone https://github.com/kunal-arora-1411/PlantGuardNet.git
 cd PlantGuardNet
 pip install -r requirements.txt
+```
+
+---
+
+## 🏃‍♂️ Run the App
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📫 Contact
+
+Feel free to connect or raise issues if you have suggestions or improvements!
+
+```
+
+---
+
+Let me know if you'd like the README in `.md` file format or want help resizing your UI screenshots for GitHub display.
