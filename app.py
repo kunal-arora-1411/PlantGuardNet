@@ -12,8 +12,7 @@ from PIL import Image
 # ===== 2. Constants for Downloading Weights =====
 MODEL_PATH = "best_model.pth"
 RELEASE_URL = (
-    "https://github.com/kunal-arora-1411/PlantGuardNet-API/"
-    "releases/download/v1.0/best_model.pth"
+    "https://github.com/kunal-arora-1411/PlantGuardNet/releases/download/v1.0/best_model.pth"
 )
 
 def download_weights(url: str = RELEASE_URL, dest: str = MODEL_PATH):
