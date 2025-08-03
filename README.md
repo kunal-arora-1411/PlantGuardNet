@@ -4,6 +4,10 @@
 **PlantGuardNet** is a deep learning-based system for intelligent plant disease detection and care recommendation. It uses Convolutional Neural Networks (CNN) to classify crop types and detect diseases from leaf images, providing tailored agronomic advice.
 
 ---
+# test my work
+https://plantguardnet-dnrhxmdfruarqe6vsjjwer.streamlit.app/
+
+---
 
 ## 🧠 Key Features
 
