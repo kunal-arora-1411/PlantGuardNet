@@ -5,7 +5,7 @@
 
 ---
 # test my work
-download test1.jpg or any other leaf photo and upload on this strealit app:\n
+download test1.jpg or any other leaf photo and upload on this strealit app:                                                                                                                                                           
 https://plantguardnet-dnrhxmdfruarqe6vsjjwer.streamlit.app/
 
 ---
